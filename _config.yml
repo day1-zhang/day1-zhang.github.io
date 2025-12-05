@@ -13,3 +13,8 @@ timezone: Asia/Shanghai
 paginate: 10
 paginate_path: "/page:num/"
 url: "https://day1-zhang.github.io"
+header_pages:
+  - index.md
+  - categories.md
+  - tags.md
+  - about.md
