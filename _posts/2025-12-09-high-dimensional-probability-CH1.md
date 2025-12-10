@@ -2,7 +2,7 @@
 layout: post
 title: 高维概率与数据科学 - 第一讲笔记
 date: 2025-12-09 10:00:00 +0800
-categories: [数学, 高等概率论]
+categories: [高等概率论]
 tags: [凸性, 凸包, Carathéodory, 概率方法, 数据科学]
 chapter: 1
 ---
