@@ -84,10 +84,11 @@ $$\frac{1}{n} \sum_{i=1}^n X_i \xrightarrow{a.s.} \mu$$
 ### 蒙特卡洛方法的误差分析
 - 估计量：$\hat{I} = \frac{1}{n} \sum_{i=1}^n f(\mathbf{X}_i)$
 - 无偏性：$E[\hat{I}] = \int_{[0,1]^d} f(\mathbf{x}) d\mathbf{x}$
-- 均方误差：$E[(\hat{I} - I)^2] = \frac{\text{Var}(f(\mathbf{X}))}{n} \leq \frac{1}{n}$（假设$|f| \leq 1$）
+- 均方误差：$E[(\hat{I} - I)^2] = \frac{\text{Var}(f(\mathbf{X}))}{n} \leq \frac{1}{n}$（假设$\lvert f \rvert \leq 1$）
 - 期望误差：$O\left(\frac{1}{\sqrt{n}}\right)$
 
 ### 与网格法对比
+
 | 方法 | 点数需求 | 与维度关系 |
 |------|----------|------------|
 | 网格法 | $O\left(\frac{1}{\epsilon^d}\right)$ | 指数增长 |
